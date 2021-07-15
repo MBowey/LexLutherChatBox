@@ -18,7 +18,7 @@ The focus of this project was to create an automated chat box that returned the 
     5. Foreign Exchange
     6. Economic Data
 
-![InvestmentPrompt](images/InvestmentPrompt.png)
+![GitHub Logo](images/InvestmentPrompt.png)
 
 ## Natural Language Processing: VADER Sentiment
 * Speed-performance advantage
@@ -27,7 +27,7 @@ The focus of this project was to create an automated chat box that returned the 
 * Only a few lines of code
 * F1-Score of 0.96* 
 
-![SentimentAnalysis](images/SentimentAnalysis.png)
+![GitHub Logo](images/SentimentAnalysis.png)
 
 _*https://blog.quantinsti.com/vader-sentiment/_ 
 
@@ -39,7 +39,7 @@ _*https://blog.quantinsti.com/vader-sentiment/_
 * Evaluate
 * Return
 
-![Slots](images/Slots.png)
+![GitHub Logo](images/Slots.png)
 
 
 ## Final Conclusions & Challenges
@@ -50,7 +50,7 @@ _*https://blog.quantinsti.com/vader-sentiment/_
 * AWS Lambda Layers has a capacity limit of  250 MB
 * Testing functions in AWS is inefficient
 
-![LambdaLayer](images/LambdaLayer.png)
+![GitHub Logo](images/LambdaLayer.png)
 
 
 ## Next Steps
