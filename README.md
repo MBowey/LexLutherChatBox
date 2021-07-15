@@ -1,7 +1,7 @@
 # Project 2 - Lex Luther Chat Box
 
-# Team 4 - A 
-##### by Michael Bowey, Juan Izquierdo Teran, Shakib Farah, Alexandre Portno
+# Team 4
+##### 
 ---
 
 ## Intro 
