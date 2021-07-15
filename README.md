@@ -5,11 +5,12 @@
 ---
 
 ## Intro 
-The focus of this project was to create an automated chat box that returned the top headlines, price data & sentiment analysis for various asset classes. We wanted to create a tool that would provide a quick and efficient update for its user. 
+The main focus of this project was to create an automated chat box that returned the top headlines, price data & sentiment analysis for various asset classes. We wanted to create a tool that would provide a quick and efficient update for its user. 
 
 
 
 ## Data Preperation & Amazon Lex
+We used various different API's to pull in all this our data. We mainly used Alpaca & Quandl APIs for our equities, and other metrics. We pulled our Econnomic data from FRED using QUANDL's python API.
  * We gave the user a selection of investment and economic data to choose from:
     1. Equities
     2. Fixed Income
@@ -21,6 +22,8 @@ The focus of this project was to create an automated chat box that returned the 
 ![InvestmentPrompt](Images/InvestmentPrompt.png)
 
 ## Natural Language Processing: VADER Sentiment
+In a data-driven world, sentinment analysis is extremly useful as it allows a wider public opinion about certain topics. Sentiment analysis is the process of computing and categorizing textx into their respective polarity: postitive, negative or neutral.
+A VADER sentiment analysis was a great way for our team to analyize the content of our data, it is:
 * Speed-performance advantage
 * Less resource-consuming model
 * No need for training data
@@ -32,7 +35,7 @@ The focus of this project was to create an automated chat box that returned the 
 _*https://blog.quantinsti.com/vader-sentiment/_ 
 
 
-## AWS Lamda: Intent Handler & NLP Model
+## AWS Lambda: Intent Handler & NLP Model
 * Build
 * Define
 * Import
