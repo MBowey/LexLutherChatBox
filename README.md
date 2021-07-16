@@ -38,7 +38,7 @@ _*https://blog.quantinsti.com/vader-sentiment/_
 
 
 ## AWS Lambda: Intent Handler & NLP Model
-The main code of our project consisted of building a Lambda Function that followed the steps below and then connecting it to Amazon Lex.
+The main code of our project consisted of building a Lambda Function that would handle the user requests from Amazon Lex. The user would select the Investment and Update they wanted, which would then get passed through our Lamda Function as slot prompt and return a message with the final result. 
 
 * Build AWS Lamda Function
 * Import Libraries (Pandas, nltk, SentimentIntensityAnalyzer)
