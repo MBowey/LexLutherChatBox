@@ -46,20 +46,25 @@ _*https://blog.quantinsti.com/vader-sentiment/_
 
 
 ## Final Conclusions & Challenges
+Finally, we did run into some problems that were an obstacle for us to be able to move into other steps of our project, mostly working with AWS. Some of the those were:
 
 * Additional library dependencies required
     * AWS Lambda Layers 
     * Cloud 9
-* AWS Lambda Layers has a capacity limit of  250 MB
+* AWS Lambda Layers has a capacity limit of  250 MB, which did not allow us to use other libraries such as Alpaca  or Quandl.
 * Testing functions in AWS is inefficient
 
 ![LambdaLayer](Images/LambdaLayer.png)
 
 
 ## Next Steps
-* Import more libraries with AWS S3 
+This project definitely has various implementations in our every day lives such as:
+* Implement it with Alexa
 * Connect chat box to Slack, Twilio, Facebook, URL Website
+With more time with our project, our next step would have been to:
 * Add machine learning price/trend prediction
+* Import more libraries with AWS S3 
+
 
 
 
